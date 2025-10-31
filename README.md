@@ -44,7 +44,7 @@ It performs both **direct arithmetic testing** and **CSV-driven series evaluatio
 
 ---
 
-### `data/data.csv` 
+### `/data.csv` 
 
 | expression | expected |
 |-------------|-----------|
@@ -52,7 +52,6 @@ It performs both **direct arithmetic testing** and **CSV-driven series evaluatio
 | 10*2/2+10-20 | 0 |
 | 4pi2^3 | 100.53 |
 | 5! | 120 |
-
 
 ---
 ## Output & Reports
@@ -73,12 +72,15 @@ https://github.com/user-attachments/assets/2d231735-d2ea-4baa-974f-58baaf86eae5
 ### Install and Configure Android Studio
 Add environment variables:
 **User Variable:** 
+```bash
 APPIUM_HOME = C:\Users<user>\AppData\Local\Android\Sdk
+```
 **System PATH additions:**
+```bash
 %APPIUM_HOME%\platform-tools
 %APPIUM_HOME%\emulator
 %APPIUM_HOME%\build-tools
-
+```
 ---
 
 ### Install Appium & Drivers
