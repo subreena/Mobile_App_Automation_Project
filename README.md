@@ -61,8 +61,8 @@ It performs both **direct arithmetic testing** and **CSV-driven series evaluatio
 <img width="1358" height="650" alt="mobile_app_all" src="https://github.com/user-attachments/assets/75183b17-4e53-4bad-ac17-30dfab00d607" />
 <img width="1358" height="650" alt="mobile_app_behavior" src="https://github.com/user-attachments/assets/ff53bd67-62d0-4c8c-bf1e-d729e2900924" />
 
-### Recording
-🎬 [Click here to watch the automation demo](https://github.com/user-attachments/assets/54b559fe-25aa-4270-ab8c-fc1f27e8994d)
+### Recording of Automation
+https://github.com/user-attachments/assets/2d231735-d2ea-4baa-974f-58baaf86eae5
 
 ---
 ## ⚙️ How to Run the Project
