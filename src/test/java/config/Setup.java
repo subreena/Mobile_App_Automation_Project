@@ -15,7 +15,7 @@ public class Setup {
     public static final String PACKAGE_ID = "com.google.android.calculator";
     @BeforeTest
     public void setup() throws MalformedURLException {
-     //        {
+ //        {
 //            "platformName": "Android",
 //                "appium:os": "16",
 //                "appium:app": "G:\\SQA\\mobile_app_automation\\calculator.apk",
@@ -42,12 +42,12 @@ public class Setup {
         caps.setCapability("appium:connectHardwareKeyboard", true);
         caps.setCapability("appium:disableAndroidWatchers", true);
         caps.setCapability("appium:uiautomator2ServerLaunchTimeout", 120000);
+        caps.setCapability("appium:adbExecTimeout", 120000);
 
         URL url = new URL("http://127.0.0.1:4723");
 
         driver = new AndroidDriver(url,caps);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
     }
 
     @AfterTest
