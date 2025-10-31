@@ -14,7 +14,7 @@ import java.util.List;
 public class SeriesDatasetCSV {
     @DataProvider(name="SeriesDatasetCSV")
     public Object[][] getCSVData() throws IOException {
-        String CSVFilepath = "./src/test/resources/series.csv";
+        String CSVFilepath = "./src/test/resources/data.csv";
         List<Object[]> data = new ArrayList<>();
                 CSVParser csvParser = new CSVParser(new FileReader(CSVFilepath), CSVFormat.DEFAULT.withFirstRecordAsHeader());
                 for (CSVRecord csvRecord: csvParser){
